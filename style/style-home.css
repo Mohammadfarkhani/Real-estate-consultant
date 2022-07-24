@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
+  font-family: "vazir";
   line-height: 1;
 }
 
@@ -52,4 +53,44 @@ table {
   border-spacing: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+nav {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+nav .navbar .meno {
+  display: inline-block;
+}
+nav .navbar .log {
+  display: flex;
+  flex-direction: row;
+}
+nav .logo {
+  background-color: cadetblue;
+  background-image: url(../image/logo.png);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+nav .link {
+  padding: 5px;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: black;
+}
+nav .link:hover {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style-home.css.map */
